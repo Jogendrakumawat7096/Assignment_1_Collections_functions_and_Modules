@@ -5,6 +5,6 @@ dict1 = {'a': 1, 'b': 2,'c': 3, 'd': 4}
 key = input("enter your key : ")
 
 if key in dict1:
-    print("key is already exists")
+    print("key is presence in dictionary")
 else:
-    print("key not in disc")
+    print("key is not presence")

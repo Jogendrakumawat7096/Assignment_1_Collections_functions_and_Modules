@@ -2,6 +2,9 @@
 # new one.
 
 
+# Write a Python script to concatenate following dictionaries to create a
+# new one. 
+
 dict1 = {'a': 1, 'b': 2}
 dict2 = {'b': 3, 'c': 4}
 dict3 = {'c': 5, 'd': 6}

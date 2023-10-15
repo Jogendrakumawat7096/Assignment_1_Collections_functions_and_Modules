@@ -10,4 +10,4 @@ def factorial(n):
         return 1
     else:
         return n * factorial(n-1)
-print(factorial(5))
+print("The factorial of 5 is:",factorial(5))
