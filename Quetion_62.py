@@ -1,10 +1,11 @@
 # Write a Python program to returns sum of all divisors of a number 
 
-def sum_off_division(n):
-    divisors = [i for i in range(1, n+1) if n % i == 0]
+def sum_div(number):
+    divisors = [1]
+    for i in range(2, number):
+        if (number % i)==0:
+            divisors.append(i)
     return sum(divisors)
 
-
-n = 10
-
-print(sum_off_division(n))
+print(sum_div(8))
+print(sum_div(12))

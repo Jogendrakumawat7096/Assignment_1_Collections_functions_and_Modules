@@ -2,8 +2,8 @@
 
 import math
 
-degree = 90
+degree= int(input("Enter Degree : "))
 
 radian = math.radians(degree)
 
-print(radian)
+print(f"Radian Value of {degree} is :",radian)

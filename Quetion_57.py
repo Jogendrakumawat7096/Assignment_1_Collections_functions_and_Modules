@@ -2,13 +2,17 @@
 import random
 
 file = open("random.txt","w")
-file.write("jogendra kumawat ")
+file.write("jogendra kumawat \n kumawt \n tops Technolgy \n Ahmedabad \n python")
 file.close()
 
 
 
 
+
 file =open("random.txt","r")
-r = file.readlines()
-random.choice(r)
-print(r)
+lines = file.readlines()
+if not lines:
+    print("File is empty.") 
+
+random_line = random.choice(lines)
+print(random_line)

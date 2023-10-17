@@ -2,9 +2,11 @@
 # elements where the values are square of numbers between 1 and 30.
 
 
-def generate_squares():
-    squares = [i ** 2 for i in range(1, 31)]
-    print("First 5 elements:", squares[:5])
-    print("Last 5 elements:", squares[-5:])
+def gernerate_list():
+	l = list()
+	for i in range(1,31):
+		l.append(i**2)
+	print(l[:5])
+	print(l[-5:])
 
-generate_squares()
+gernerate_list()

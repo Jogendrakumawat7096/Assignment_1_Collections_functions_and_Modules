@@ -11,10 +11,9 @@ def sort_dict_desc(d):
 
 # Test the functions
 d = {'apple': 3, 'banana': 2, 'cherry': 1}
-
+ 
 print("Original dictionary:", d)
 print("Dictionary sorted in ascending order by value:", sort_dict_asc(d))
 print("Dictionary sorted in descending order by value:", sort_dict_desc(d))
 
 
-print(sorted(d.items()))

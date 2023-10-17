@@ -4,5 +4,8 @@
 list1 = [1,5,6,2,4,6,7,8]
 list2 = [1,5,6]
 
-print(set(list2).issubset(set(list1)))
+print()
+
+if set(list2).issubset(set(list1)):
+    print("")
     

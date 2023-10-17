@@ -5,6 +5,6 @@ import random
 def random_choice(l):
     print(random.choice(l))
 
-list = ["jjsfsaf","ASFsaf",5,6,"asfaf"]
+list = ["Jogendra","Kumawat",5,6,"Gujarat"]
 
 random_choice(list)
